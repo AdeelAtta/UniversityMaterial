@@ -1072,7 +1072,7 @@ footer .footer-bottom-area a {
 
 .pastpapers-detail .container .row .detail-box .department-list {
 
-    max-width: 60%;
+    max-width: 70%;
     height: 15rem;
     overflow: hidden;
     background: #000;
@@ -1150,7 +1150,7 @@ footer .footer-bottom-area a {
     background: #f6f6f6;
     margin-top: 5%;
     border-radius: 3%;
-    min-width: 30%;
+    width: 30%;
     padding-top: 3%;
 
 
@@ -1180,6 +1180,8 @@ footer .footer-bottom-area a {
     background-repeat: no-repeat;
     padding-top: 10rem;
 }
+
+
 
 
 .pastpapers-detail .container .row .quicklinks .container .links ul li{
@@ -1307,6 +1309,26 @@ list-style-type: none;
 
 }
 
+
+
+/***********Past Papers page*************/
+
+    .pastpapers-detail .container .row .detail-box .department-list{
+
+        max-width: 80%;
+
+    }
+
+.pastpapers-detail .container .row .quicklinks h1 span{
+    font-size:  1.7rem;
+}
+
+.pastpapers-detail .container .row .quicklinks .container .social-links{
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /*****************************************************************/
 /*****************************************************************/
 
@@ -1395,6 +1417,59 @@ list-style-type: none;
         padding-left: 45px;
 
     }
+
+
+
+ /***********Past Papers page*************/
+ /***********Past Papers page*************/
+
+    .pastpapers-detail .container .row{
+        display: block;
+    }
+    .pastpapers-detail .container .row .quicklinks {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pastpapers-detail .container .row .detail-box{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pastpapers-detail .container .row .quicklinks .container .social-links{
+        padding: 0 30%;
+    }
+
+
+    .pastpapers-detail .container .row .quicklinks h1  {
+        margin-bottom: 2%;
+    }
+    .pastpapers-detail .container .row .quicklinks h1 span {
+
+        font-size: 2.2rem;
+
+    }
+
+    .pastpapers-detail .container .row .quicklinks .container .links ul li{
+        width: 65%;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1550,8 +1625,33 @@ list-style-type: none;
         }
 
 
+         /***********Past Papers page*************/
+ /***********Past Papers page*************/
+
+        .pastpapers-detail .container .row {
+            width: 95%;
+        }
+        .pastpapers-detail .container .row .detail-box .department-list{
+
+            min-width: 95%;
+
+
+        }
+
+
+
 
     }
+
+
+
+
+
+
+
+
+
+
 
 
     /*****************************************************************/
@@ -1580,6 +1680,19 @@ list-style-type: none;
             margin-bottom: -3.7em;
         }
 
+
+        .pastpapers-detail .container .row .detail-box .department-list .department h3{
+
+            font-size: 250%;
+            margin-top: 20%;
+
+
+
+        }
+        .pastpapers-detail .container .row .quicklinks .container .social-links{
+            padding: 0 27%;
+        }
+
     }
 
     /*****************************************************************/
@@ -1605,6 +1718,30 @@ list-style-type: none;
         .services .container .row .box:nth-child(3) {
             margin-bottom: -3em;
         }
+
+
+
+
+        .pastpapers-detail .container .row .detail-box .department-list .department h4{
+
+
+            letter-spacing: 0px;
+        }
+        .pastpapers-detail .container .row .detail-box .department-list .department h3{
+
+            font-size: 200%;
+            margin-top: 30%;
+
+
+        }
+         .pastpapers-detail .container .row .quicklinks .container .social-links{
+            padding: 0 22%;
+        }
+
+
+
+
+
 
     }
 
@@ -1649,6 +1786,42 @@ list-style-type: none;
         .social-colab-account .container h1 span {
             font-size: 36px;
         }
+
+        .container h1 span{
+            font-size: 24px;
+        }
+        .pastpapers-detail .container .row .detail-box h2{
+            font-size: 18px;
+        }
+        .pastpapers-detail .container .row .detail-box .department-list img{
+            display: none;
+        }
+        .pastpapers-detail .container .row .detail-box .department-list .department h3{
+
+
+
+        }
+        .pastpapers-detail .container .row .detail-box .department-list .department h4{
+
+        }
+
+        .pastpapers-detail .container .row .detail-box .department-list .department{
+            width: 100%;
+        }
+        .pastpapers-detail .container .row .quicklinks .container .links ul li a{
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .pastpapers-detail .container .row .quicklinks h1 span{
+            font-size: 2rem;
+        }
+
+        .pastpapers-detail .container .row .quicklinks .container .social-links{
+
+            padding: 0 13%;
+        }
+
 
 
     }
