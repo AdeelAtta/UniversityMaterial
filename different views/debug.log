@@ -1,0 +1,2 @@
+[1014/103714.595:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Adeel\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\1f8bd51a-73c4-4216-94b9-cc0011e72bf1: The system cannot find the path specified. (0x3)
+[1014/103714.595:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
