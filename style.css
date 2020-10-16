@@ -19,7 +19,7 @@
 ::-webkit-scrollbar-track {
 
     box-shadow: inset 0 0 5px grey;
-     background-color: black;
+    background-color: black;
 }
 
 /* Handle */
@@ -186,7 +186,7 @@ header {
     transition: all 0.3s ease-out-in;
 }
 
-.nav-main ul li a:hover{
+.nav-main ul li a:hover {
     transform: scale(1.1);
     color: #ff7400;
 }
@@ -289,7 +289,7 @@ header {
 }
 
 
-.header-image{
+.header-image {
     background-image: url("images/pastpapers.jpg");
     background-size: cover;
     background-position: center;
@@ -347,7 +347,7 @@ header {
 }
 
 .container .tab-menu li:nth-child(5),
-.container .row ul li:nth-child(7){
+.container .row ul li:nth-child(7) {
     background-color: #112d4e;
     transform: skew(-30deg);
     color: #fff;
@@ -365,17 +365,20 @@ header {
     font-weight: 900;
     transition: transform 0.3s;
 }
+
 .container .tab-menu li:nth-child(5) a,
 .container .tab-menu li:nth-child(7) a,
-.container .tab-menu li:nth-child(6) a{
-   color: white;
-   transform: skew(30deg);
+.container .tab-menu li:nth-child(6) a {
+    color: white;
+    transform: skew(30deg);
 }
+
 .container .tab-menu ul li:nth-child(-n+4) a:hover {
     transform: scale(1.15);
 }
+
 .container .tab-menu ul li:nth-child(n+5) a:hover {
-    transform: scale(1.15)  skew(30deg);
+    transform: scale(1.15) skew(30deg);
 
 }
 
@@ -462,7 +465,7 @@ header {
     padding: 5px;
     margin: 5px;
     max-width: 27em;
-   max-height: 27em;
+    max-height: 27em;
     border-radius: 10%;
 
 }
@@ -579,7 +582,7 @@ header {
     height: auto;
 }
 
- .container h1 span {
+.container h1 span {
     color: #3f72af;
     width: 90%;
     font-weight: 700;
@@ -602,9 +605,6 @@ header {
     overflow: hidden;
     margin-top: 5%;
     transition: transform 0.3s
-
-
-
 }
 
 .services .container .row .box {
@@ -619,7 +619,7 @@ header {
 .services .container .row .box:first-child {
 
     background: linear-gradient(rgba(0, 90, 135, 0.7), rgba(0, 90, 135, 0.7)), url(images/img1.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transform: skewY(4deg);
@@ -651,7 +651,7 @@ header {
 
     margin: 2.8% 0 0 0;
     transform: skewY(-12deg);
-    background: linear-gradient(rgba(60, 1, 11, 0.7),rgba(60, 1, 11, 0.7)), url(images/img4.png);
+    background: linear-gradient(rgba(60, 1, 11, 0.7), rgba(60, 1, 11, 0.7)), url(images/img4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1016,7 +1016,7 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 /*****************************************************************/
 
-               /*   Pastpapers    page     */
+/*   Pastpapers    page     */
 
 /*****************************************************************/
 /*****************************************************************/
@@ -1027,13 +1027,17 @@ footer .footer-bottom-area a {
 
 .pastpapers-detail {
 
-    height: auto
+    height: auto;
+    width: 100%;
 }
-.pastpapers-detail .container{
+
+.pastpapers-detail .container {
 
     height: auto;
+     width: 100%;
 }
-.pastpapers-detail .container .row{
+
+.pastpapers-detail .container .row {
 
     height: auto;
     margin: auto;
@@ -1041,21 +1045,21 @@ footer .footer-bottom-area a {
     margin-top: 5%;
 
 }
-.pastpapers-detail .container .row .detail-box{
+
+.pastpapers-detail .container .row .detail-box {
     height: auto;
     width: 85%;
     margin-top: 5%;
     padding-bottom: 5%;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
-    background: #DFE5F9;
+    background: #f6f6f6;
     border-radius: 3%;
-
 
 }
 
 
-.pastpapers-detail .container .row .detail-box h2{
+.pastpapers-detail .container .row .detail-box h2 {
 
     color: #FF5F21;
     text-transform: capitalize;
@@ -1066,7 +1070,7 @@ footer .footer-bottom-area a {
 }
 
 
-.pastpapers-detail .container .row .detail-box .department-list{
+.pastpapers-detail .container .row .detail-box .department-list {
 
     max-width: 60%;
     height: 15rem;
@@ -1074,11 +1078,11 @@ footer .footer-bottom-area a {
     background: #000;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 2em;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.pastpapers-detail .container .row .detail-box .department-list a{
+.pastpapers-detail .container .row .detail-box .department-list a {
 
     width: 100%;
     height: 100%;
@@ -1087,73 +1091,160 @@ footer .footer-bottom-area a {
     align-items: center;
     opacity: 0.8;
     transform: scale(1.15);
-    transition: transform 0.5s , opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
     overflow: auto;
 
 }
 
 
-.pastpapers-detail .container .row .detail-box .department-list a:hover{
+.pastpapers-detail .container .row .detail-box .department-list a:hover {
 
     opacity: 1;
     transform: scale(1.03);
 }
 
-.pastpapers-detail .container .row .detail-box .department-list img{
+.pastpapers-detail .container .row .detail-box .department-list a:hover > .department {
+    background-image: url(images/lining.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+.pastpapers-detail .container .row .detail-box .department-list img {
     height: 100%;
     width: 40%;
 }
-.pastpapers-detail .container .row .detail-box .department-list .department{
+
+.pastpapers-detail .container .row .detail-box .department-list .department {
     height: 100%;
     width: 60%;
     background: white;
-    overflow: inherit;
+    transition: all 2s easeout, ;
+
 
 }
 
 
-.pastpapers-detail .container .row .detail-box .department-list .department h3{
-    width: auto;
-    font-size: 3em;
+
+.pastpapers-detail .container .row .detail-box .department-list .department h3 {
+    max-width: 90%;
+    font-size: 300%;
     text-align: center;
     margin-top: 12%;
 
-
 }
 
-.pastpapers-detail .container .row .detail-box .department-list .department h4{
-    font-size: 1.7em;
+.pastpapers-detail .container .row .detail-box .department-list .department h4 {
+    font-size: 1.7rem;
     text-align: center;
     letter-spacing: 5px;
-     width: auto;
+    width: auto;
     margin: auto;
-
-
 }
 
 
-.pastpapers-detail .container .row .quicklinks{
+.pastpapers-detail .container .row .quicklinks {
 
 
     margin-left: 2%;
-    background: #DFE5F9;
-      margin-top: 5%;
+    background: #f6f6f6;
+    margin-top: 5%;
     border-radius: 3%;
-    min-width: 25%;
+    min-width: 30%;
+    padding-top: 3%;
 
+
+
+}
+.pastpapers-detail .container .row .quicklinks .container{
+    width: 100%;
+    height: auto;
 
 
 }
 .pastpapers-detail .container .row .quicklinks h1{
 
-    margin-top: 10%;
 
 }
-.pastpapers-detail .container .row .quicklinks h1 span{
+.pastpapers-detail .container .row .quicklinks h1 span {
 
-    font-size: 1.5rem;
+    font-size: 2rem;
 
 }
+
+.pastpapers-detail .container .row .quicklinks .container .links {
+    height: 600px;
+    background-image: url(images/tag.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+}
+
+
+.pastpapers-detail .container .row .quicklinks .container .links ul li{
+list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+   line-height: 50px;
+    text-align: center;
+   transition: transform .3s,font-weight 0.3s, background-color 0.3s;
+}
+
+.pastpapers-detail .container .row .quicklinks .container .links ul li:hover{
+
+    transform: scale(1.2);
+      font-weight: 600;
+    background-color: white;
+
+
+}
+.pastpapers-detail .container .row .quicklinks .container .links ul li a{
+    width: 50%;
+
+}
+
+.pastpapers-detail .container .row .quicklinks .container .social-links{
+
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+.pastpapers-detail .container .row .quicklinks .container .social-links a{
+    margin-right: 5%;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
 
 
 
@@ -1164,9 +1255,9 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 /*****************************************************************/
 
-                   /*CSS for Mobile View    */
-                   /*         Width         */
-                   /*  Minimum   1167px      */
+/*CSS for Mobile View    */
+/*         Width         */
+/*  Minimum   1167px      */
 
 /*****************************************************************/
 /*****************************************************************/
@@ -1182,10 +1273,10 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 /*****************************************************************/
 
-                   /*CSS for Mobile View    */
-                   /*         Width         */
-                   /*  Minimum   1024px      */
-                   /*  Maximum   1100px      */
+/*CSS for Mobile View    */
+/*         Width         */
+/*  Minimum   1024px      */
+/*  Maximum   1100px      */
 
 /*****************************************************************/
 /*****************************************************************/
@@ -1219,10 +1310,10 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 /*****************************************************************/
 
-                   /*CSS for Mobile View    */
-                   /*         Width         */
-                   /*  Minimum   768px      */
-                   /*  Maximum  1024px      */
+/*CSS for Mobile View    */
+/*         Width         */
+/*  Minimum   768px      */
+/*  Maximum  1024px      */
 
 /*****************************************************************/
 /*****************************************************************/
@@ -1312,10 +1403,10 @@ footer .footer-bottom-area a {
     /*****************************************************************/
     /*****************************************************************/
 
-                   /*CSS for Mobile View    */
-                   /*         Width         */
-                   /*  Minimum   600px      */
-                   /*  Maximum   768px      */
+    /*CSS for Mobile View    */
+    /*         Width         */
+    /*  Minimum   600px      */
+    /*  Maximum   768px      */
 
     /*****************************************************************/
     /*****************************************************************/
@@ -1466,10 +1557,10 @@ footer .footer-bottom-area a {
     /*****************************************************************/
     /*****************************************************************/
 
-                   /*CSS for Mobile View    */
-                   /*         Width         */
-                   /*  Minimum   500px      */
-                   /*  Maximum   600px      */
+    /*CSS for Mobile View    */
+    /*         Width         */
+    /*  Minimum   500px      */
+    /*  Maximum   600px      */
 
     /*****************************************************************/
     /*****************************************************************/
@@ -1494,10 +1585,10 @@ footer .footer-bottom-area a {
     /*****************************************************************/
     /*****************************************************************/
 
-                   /*CSS for Mobile View    */
-                   /*         Width         */
-                   /*  Minimum   400px      */
-                   /*  Maximum   500px      */
+    /*CSS for Mobile View    */
+    /*         Width         */
+    /*  Minimum   400px      */
+    /*  Maximum   500px      */
 
     /*****************************************************************/
     /*****************************************************************/
@@ -1521,10 +1612,10 @@ footer .footer-bottom-area a {
     /*****************************************************************/
     /*****************************************************************/
 
-                   /*CSS for Mobile View    */
-                   /*         Width         */
-                   /*  Minimum   0          */
-                   /*  Maximum   400px      */
+    /*CSS for Mobile View    */
+    /*         Width         */
+    /*  Minimum   0          */
+    /*  Maximum   400px      */
 
     /*****************************************************************/
     /*****************************************************************/
