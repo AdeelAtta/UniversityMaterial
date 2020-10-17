@@ -993,8 +993,8 @@ footer .container .row ul li a:hover {
 }
 
 
-.footer-bottom-area{
- text-align: center;
+.footer-bottom-area {
+    text-align: center;
 }
 
 footer .footer-bottom-area span {
@@ -1019,7 +1019,7 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 /*****************************************************************/
 
-/*   Pastpapers    page     */
+/*   Pastpapers    page     Department Selection */
 
 /*****************************************************************/
 /*****************************************************************/
@@ -1028,28 +1028,24 @@ footer .footer-bottom-area a {
 
 
 
-.pastpapers-detail {
-
+.material-detail {
     height: auto;
     width: 100%;
 }
 
-.pastpapers-detail .container {
-
+.material-detail .container {
     height: auto;
-     width: 100%;
+    width: 100%;
 }
 
-.pastpapers-detail .container .row {
-
+.material-detail .container .row {
     height: auto;
     margin: auto;
     width: 90%;
     margin-top: 5%;
-
 }
 
-.pastpapers-detail .container .row .detail-box {
+.material-detail .container .row .detail-box {
     height: auto;
     width: 85%;
     margin-top: 5%;
@@ -1062,7 +1058,7 @@ footer .footer-bottom-area a {
 }
 
 
-.pastpapers-detail .container .row .detail-box h2 {
+.material-detail .container .row .detail-box h2 {
 
     color: #FF5F21;
     text-transform: capitalize;
@@ -1073,7 +1069,7 @@ footer .footer-bottom-area a {
 }
 
 
-.pastpapers-detail .container .row .detail-box .department-list {
+.material-detail .container .row .detail-box .department-list {
 
     max-width: 70%;
     height: 15rem;
@@ -1083,9 +1079,20 @@ footer .footer-bottom-area a {
     margin-right: auto;
     margin-bottom: 2em;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
 }
 
-.pastpapers-detail .container .row .detail-box .department-list a {
+.material-detail .container .row .detail-box .department-list:nth-child(odd):hover {
+
+    transform: perspective(500px) rotateY(7deg) scale(0.9);
+}
+
+.material-detail .container .row .detail-box .department-list:nth-child(even):hover {
+
+    transform: perspective(500px) rotateY(-7deg) scale(0.9);
+}
+
+.material-detail .container .row .detail-box .department-list a {
 
     width: 100%;
     height: 100%;
@@ -1100,25 +1107,30 @@ footer .footer-bottom-area a {
 }
 
 
-.pastpapers-detail .container .row .detail-box .department-list a:hover {
+.material-detail .container .row .detail-box .department-list a:hover {
 
     opacity: 1;
     transform: scale(1.03);
 }
 
-.pastpapers-detail .container .row .detail-box .department-list a:hover > .department {
+.material-detail .container .row .detail-box .department-list a:hover > .department {
     background-image: url(images/lining.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
 
-.pastpapers-detail .container .row .detail-box .department-list img {
+.material-detail .container .row .detail-box .department-list img {
     height: 100%;
     width: 40%;
 }
 
-.pastpapers-detail .container .row .detail-box .department-list .department {
+
+
+
+
+
+.material-detail .container .row .detail-box .department-list .department {
     height: 100%;
     width: 60%;
     background: white;
@@ -1129,7 +1141,7 @@ footer .footer-bottom-area a {
 
 
 
-.pastpapers-detail .container .row .detail-box .department-list .department h3 {
+.material-detail .container .row .detail-box .department-list .department h3 {
     max-width: 90%;
     font-size: 300%;
     text-align: center;
@@ -1137,7 +1149,7 @@ footer .footer-bottom-area a {
 
 }
 
-.pastpapers-detail .container .row .detail-box .department-list .department h4 {
+.material-detail .container .row .detail-box .department-list .department h4 {
     font-size: 1.7rem;
     text-align: center;
     letter-spacing: 5px;
@@ -1146,7 +1158,7 @@ footer .footer-bottom-area a {
 }
 
 
-.pastpapers-detail .container .row .quicklinks {
+.material-detail .container .row .quicklinks {
 
 
     margin-left: 2%;
@@ -1159,27 +1171,27 @@ footer .footer-bottom-area a {
 
 
 }
-.pastpapers-detail .container .row .quicklinks .container{
+
+.material-detail .container .row .quicklinks .container {
     width: 100%;
     height: auto;
 
 
 }
-.pastpapers-detail .container .row .quicklinks h1{
 
+.material-detail .container .row .quicklinks h1 {}
 
-}
-.pastpapers-detail .container .row .quicklinks h1 span {
+.material-detail .container .row .quicklinks h1 span {
 
     font-size: 2rem;
 
 }
 
-.pastpapers-detail .container .row .quicklinks .container .links {
+.material-detail .container .row .quicklinks .container .links {
     height: 600px;
     background-image: url(images/tag.png);
-    background-position:center;
-    background-size:cover;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10rem;
 }
@@ -1187,46 +1199,50 @@ footer .footer-bottom-area a {
 
 
 
-.pastpapers-detail .container .row .quicklinks .container .links ul li{
-list-style-type: none;
+.material-detail .container .row .quicklinks .container .links ul li {
+    list-style-type: none;
     font-size: 24px;
     font-weight: 400;
-   line-height: 50px;
+    line-height: 50px;
     text-align: center;
-   transition: transform .3s,font-weight 0.3s, background-color 0.3s;
+    transition: transform .3s, font-weight 0.3s, background-color 0.3s;
 }
 
-.pastpapers-detail .container .row .quicklinks .container .links ul li:hover{
+.material-detail .container .row .quicklinks .container .links ul li:hover {
 
     transform: scale(1.2);
-      font-weight: 600;
+    font-weight: 600;
     background-color: white;
 
 
 }
-.pastpapers-detail .container .row .quicklinks .container .links ul li a{
+
+.material-detail .container .row .quicklinks .container .links ul li a {
     width: 50%;
 
 }
 
-.pastpapers-detail .container .row .quicklinks .container .social-links{
+.material-detail .container .row .quicklinks .container .social-links {
     width: 10rem;
-   margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 
 }
-.pastpapers-detail .container .row .quicklinks .container .social-links a{
+
+.material-detail .container .row .quicklinks .container .social-links a {
     margin-right: 5%;
 
 }
+
+
 .fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
 }
 
 .fa:hover {
@@ -1234,28 +1250,88 @@ list-style-type: none;
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
+}
+
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+/*   Pastpapers    page     Subject    Selection */
+
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+
+
+
+.material-detail .container .row .detail-box .subjects-box {
+
+    height: auto;
+    display: flex;
+    margin-top: 5%;
+
+}
+
+.material-detail .container .row .detail-box .subjects-box .box {
+    flex: 1;
+    min-width: 50%;
+    background: url(images/bg-shelf.png) bottom left repeat-x;
+    background-size: 200px 100px;
+
 }
 
 
+.material-detail .container .row .detail-box .subjects-box .box .book:nth-child(1) {
+    margin-left: 10%;
+}
+
+.material-detail .container .row .detail-box .subjects-box .box .book {
+
+    list-style: none;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-left: -6%;
+    overflow: hidden;
+    display: inline-flex;
+    transform: perspective(500px) rotateY(22deg) scale(0.9);
+    box-shadow: -2px 0 -1px #444, -4px 0 -2px #444, -6px 0 -3px #444, -8px 0 -4px #444, -10px 0 -5px #444;
+    transition: all 0.2s ease;
+    flex-wrap: nowrap;
+    z-index: 1;
+    margin-bottom: 5%;
+}
+
+.material-detail .container .row .detail-box .subjects-box .box .book:hover {
+    transform: perspective(500px) rotateY(0deg) scale(1);
+    box-shadow: none;
+    z-index: 1000;
+}
+
+
+.material-detail .container .row .detail-box .subjects-box .box .book img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    min-height: 200px;
 
 
 
 
-
-
-
+}
 
 /*****************************************************************/
 /*****************************************************************/
@@ -1314,24 +1390,25 @@ list-style-type: none;
 
 
 
-/***********Past Papers page*************/
+    /***********Past Papers page*************/
 
-    .pastpapers-detail .container .row .detail-box .department-list{
+    .material-detail .container .row .detail-box .department-list {
 
         max-width: 80%;
 
     }
 
-.pastpapers-detail .container .row .quicklinks h1 span{
-    font-size:  1.7rem;
+    .material-detail .container .row .quicklinks h1 span {
+        font-size: 1.7rem;
+    }
+
+    .material-detail .container .row .quicklinks .container .social-links {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.pastpapers-detail .container .row .quicklinks .container .social-links{
-
-    margin-left: auto;
-    margin-right: auto;
-}
-}
 /*****************************************************************/
 /*****************************************************************/
 
@@ -1423,18 +1500,20 @@ list-style-type: none;
 
 
 
- /***********Past Papers page*************/
- /***********Past Papers page*************/
+    /***********Past Papers page*************/
+    /***********Past Papers page*************/
 
-    .pastpapers-detail .container .row{
+    .material-detail .container .row {
         display: block;
     }
-    .pastpapers-detail .container .row .quicklinks {
+
+    .material-detail .container .row .quicklinks {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-    .pastpapers-detail .container .row .detail-box{
+
+    .material-detail .container .row .detail-box {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
@@ -1442,30 +1521,48 @@ list-style-type: none;
 
 
 
-    .pastpapers-detail .container .row .quicklinks h1  {
+    .material-detail .container .row .quicklinks h1 {
         margin-bottom: 2%;
     }
-    .pastpapers-detail .container .row .quicklinks h1 span {
+
+    .material-detail .container .row .quicklinks h1 span {
         font-size: 2.2rem;
 
     }
-       .pastpapers-detail .container .row .quicklinks .container .social-links{
+
+    .material-detail .container .row .quicklinks .container .social-links {
         width: 200px;
     }
-    .pastpapers-detail .container .row .quicklinks .container .links ul{
+
+    .material-detail .container .row .quicklinks .container .links ul {
         margin-top: 7%;
 
     }
-    .pastpapers-detail .container .row .quicklinks .container .links ul li{
+
+    .material-detail .container .row .quicklinks .container .links ul li {
         width: 65%;
         margin: 0 auto;
         font-size: 32px;
         line-height: 60px;
     }
-    .pastpapers-detail .container .row .quicklinks .container .links{
+
+    .material-detail .container .row .quicklinks .container .links {
 
         height: 780px;
     }
+
+
+
+    .material-detail .container .row .detail-box .subjects-box {
+        display: block;
+    }
+
+
+
+
+
+
+
 
 
 }
@@ -1486,170 +1583,166 @@ list-style-type: none;
 
 
 
-    /*****************************************************************/
-    /*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
 
-    /*CSS for Mobile View    */
-    /*         Width         */
-    /*  Minimum   600px      */
-    /*  Maximum   768px      */
+/*CSS for Mobile View    */
+/*         Width         */
+/*  Minimum   600px      */
+/*  Maximum   768px      */
 
-    /*****************************************************************/
-    /*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
 
 
 
 
-    @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 
 
 
-        /*   **************     Quick TAB Menu    ***************    */
-        .container .tab-menu ul li:nth-child(5),
-        .container .tab-menu ul li:nth-child(6),
-        .container .tab-menu ul li:nth-child(7),
-        .container .tab-menu ul li:nth-child(8) {
+    /*   **************     Quick TAB Menu    ***************    */
+    .container .tab-menu ul li:nth-child(5),
+    .container .tab-menu ul li:nth-child(6),
+    .container .tab-menu ul li:nth-child(7),
+    .container .tab-menu ul li:nth-child(8) {
 
-            display: none;
+        display: none;
 
-        }
+    }
 
-        /*******************************/
+    /*******************************/
 
-        .update-section .container .row .upcomming-events {}
+    .update-section .container .row .upcomming-events {}
 
-        .update-section .container .row .upcomming-events .event-box {
-            display: block;
-            text-align: center;
+    .update-section .container .row .upcomming-events .event-box {
+        display: block;
+        text-align: center;
 
-        }
+    }
 
-        .update-section .container .row .upcomming-events .event-box img {
-            width: 90%;
-            height: auto;
-        }
+    .update-section .container .row .upcomming-events .event-box img {
+        width: 90%;
+        height: auto;
+    }
 
-        .update-section .container .row .news-section .news {
-            margin-bottom: 15px;
-            width: 100%;
+    .update-section .container .row .news-section .news {
+        margin-bottom: 15px;
+        width: 100%;
 
-        }
+    }
 
 
 
 
-        /*******************************/
+    /*******************************/
 
-        .services .container .row {
+    .services .container .row {
 
-            display: block;
-            overflow: visible;
-            height: auto;
-            margin-top: 3em;
+        display: block;
+        overflow: visible;
+        height: auto;
+        margin-top: 3em;
 
-        }
+    }
 
-        .services .container .row .box {
+    .services .container .row .box {
 
-            width: 100%;
-            height: 600px;
+        width: 100%;
+        height: 600px;
 
 
 
-        }
+    }
 
-        .services .container .row .box:nth-child(2),
-        .services .container .row .box:nth-child(4) {
-            transform: skewY(-4deg);
-        }
+    .services .container .row .box:nth-child(2),
+    .services .container .row .box:nth-child(4) {
+        transform: skewY(-4deg);
+    }
 
-        .services .container .row .box:nth-child(1),
-        .services .container .row .box:nth-child(3) {
-            margin-bottom: -4.7em;
+    .services .container .row .box:nth-child(1),
+    .services .container .row .box:nth-child(3) {
+        margin-bottom: -4.7em;
 
-        }
+    }
 
-        .services .container .row .box:nth-child(2) {
-            margin-bottom: -5.7em;
-        }
+    .services .container .row .box:nth-child(2) {
+        margin-bottom: -5.7em;
+    }
 
 
-        .services .container .row .box:nth-child(2) .content,
-        .services .container .row .box:nth-child(4) .content {
+    .services .container .row .box:nth-child(2) .content,
+    .services .container .row .box:nth-child(4) .content {
 
-            transform: skewY(4deg);
+        transform: skewY(4deg);
 
-        }
+    }
 
-        .services .container .row .box:nth-child(1) .content {
-            margin-top: -2rem;
-        }
+    .services .container .row .box:nth-child(1) .content {
+        margin-top: -2rem;
+    }
 
-        .services .container .row .box .content {
-            width: 90%;
-            height: 500px;
-            margin: auto;
-            padding-top: 5rem;
+    .services .container .row .box .content {
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        padding-top: 5rem;
 
 
-        }
+    }
 
-        .services .container h1 span {
-            font-size: 35px;
-        }
+    .services .container h1 span {
+        font-size: 35px;
+    }
 
-        .services .container .row .box .content img {
-            height: 95px;
-            width: 95px;
+    .services .container .row .box .content img {
+        height: 95px;
+        width: 95px;
 
 
-        }
+    }
 
-        .services .container .row .box .content h2 {
-            margin-top: 20px;
+    .services .container .row .box .content h2 {
+        margin-top: 20px;
 
-        }
+    }
 
-        .services .container .row .box .content h2 span {
-            font-size: 1.3em
-        }
+    .services .container .row .box .content h2 span {
+        font-size: 1.3em
+    }
 
-        .services .container .row .box .content p {
-            height: auto;
+    .services .container .row .box .content p {
+        height: auto;
 
 
-            font-size: 21px;
+        font-size: 21px;
 
-        }
+    }
 
-        .services .container .row .box button {
-            font-size: 30px;
-            margin-top: 20px;
-        }
+    .services .container .row .box button {
+        font-size: 30px;
+        margin-top: 20px;
+    }
 
 
 
-        footer .container .row .quicklinks {
+    footer .container .row .quicklinks {
 
-            padding: 0;
-        }
+        padding: 0;
+    }
 
 
-         /***********Past Papers page*************/
- /***********Past Papers page*************/
+    /***********Past Papers page*************/
+    /***********Past Papers page*************/
 
-        .pastpapers-detail .container .row {
-            width: 95%;
-        }
-        .pastpapers-detail .container .row .detail-box .department-list{
+    .material-detail .container .row {
+        width: 95%;
+    }
 
-            min-width: 95%;
+    .material-detail .container .row .detail-box .department-list {
 
-
-        }
-
-
+        min-width: 95%;
 
 
     }
@@ -1657,6 +1750,7 @@ list-style-type: none;
 
 
 
+}
 
 
 
@@ -1665,173 +1759,204 @@ list-style-type: none;
 
 
 
-    /*****************************************************************/
-    /*****************************************************************/
-
-    /*CSS for Mobile View    */
-    /*         Width         */
-    /*  Minimum   500px      */
-    /*  Maximum   600px      */
-
-    /*****************************************************************/
-    /*****************************************************************/
-
-    @media only screen and (max-width: 600px) {
 
 
-        .services .container .row .box:nth-child(1) {
-            margin-bottom: -3.7em;
-        }
-
-        .services .container .row .box:nth-child(2) {
-            margin-bottom: -4.5em;
-        }
-
-        .services .container .row .box:nth-child(3) {
-            margin-bottom: -3.7em;
-        }
 
 
-        .pastpapers-detail .container .row .detail-box .department-list .department h3{
+/*****************************************************************/
+/*****************************************************************/
 
-            font-size: 250%;
-            margin-top: 20%;
-        }
+/*CSS for Mobile View    */
+/*         Width         */
+/*  Minimum   500px      */
+/*  Maximum   600px      */
 
-        footer .footer-bottom-area span{
-            display: block;
-            padding-top: 3px;
-        }
+/*****************************************************************/
+/*****************************************************************/
 
-                 /***********Past Papers page*************/
- /***********Past Papers page*************/
+@media only screen and (max-width: 600px) {
+
+
+    .services .container .row .box:nth-child(1) {
+        margin-bottom: -3.7em;
+    }
+
+    .services .container .row .box:nth-child(2) {
+        margin-bottom: -4.5em;
+    }
+
+    .services .container .row .box:nth-child(3) {
+        margin-bottom: -3.7em;
+    }
+
+
+    .material-detail .container .row .detail-box .department-list .department h3 {
+
+        font-size: 250%;
+        margin-top: 20%;
+    }
+
+    footer .footer-bottom-area span {
+        display: block;
+        padding-top: 3px;
+    }
+
+    /***********Past Papers page*************/
+    /***********Past Papers page*************/
+    .material-detail .container .row .detail-box .subjects-box .box .book:nth-child(1) {
+        margin-left: 1%;
+    }
+
+    .material-detail .container .row .detail-box .subjects-box .box .book {
+        width: 36%;
+    }
+
+}
+
+/*****************************************************************/
+/*****************************************************************/
+
+/*CSS for Mobile View    */
+/*         Width         */
+/*  Minimum   400px      */
+/*  Maximum   500px      */
+
+/*****************************************************************/
+/*****************************************************************/
+@media only screen and (max-width: 500px) {
+
+    .services .container .row .box:nth-child(1) {
+        margin-bottom: -3em;
+    }
+
+    .services .container .row .box:nth-child(2) {
+        margin-bottom: -3.6em;
+    }
+
+    .services .container .row .box:nth-child(3) {
+        margin-bottom: -3em;
+    }
+
+    /***********Past Papers page*************/
+    /***********Past Papers page*************/
+
+
+    .material-detail .container .row .detail-box .department-list .department h4 {
+
+
+        letter-spacing: 0px;
+    }
+
+    .material-detail .container .row .detail-box .department-list .department h3 {
+
+        font-size: 200%;
+        margin: 65px auto auto auto;
 
 
     }
 
-    /*****************************************************************/
-    /*****************************************************************/
+    .material-detail .container .row .detail-box .subjects-box .box .book:nth-child(1) {
+        margin-left: 1%;
+    }
 
-    /*CSS for Mobile View    */
-    /*         Width         */
-    /*  Minimum   400px      */
-    /*  Maximum   500px      */
-
-    /*****************************************************************/
-    /*****************************************************************/
-    @media only screen and (max-width: 500px) {
-
-        .services .container .row .box:nth-child(1) {
-            margin-bottom: -3em;
-        }
-
-        .services .container .row .box:nth-child(2) {
-            margin-bottom: -3.6em;
-        }
-
-        .services .container .row .box:nth-child(3) {
-            margin-bottom: -3em;
-        }
-
-         /***********Past Papers page*************/
- /***********Past Papers page*************/
-
-
-        .pastpapers-detail .container .row .detail-box .department-list .department h4{
-
-
-            letter-spacing: 0px;
-        }
-        .pastpapers-detail .container .row .detail-box .department-list .department h3{
-
-            font-size: 200%;
-            margin: 65px auto auto auto;
-
-
-        }
-
-
-
-
-
-
-
+    .material-detail .container .row .detail-box .subjects-box .box .book {
+        width: 36%;
     }
 
 
-    /*****************************************************************/
-    /*****************************************************************/
-
-    /*CSS for Mobile View    */
-    /*         Width         */
-    /*  Minimum   0          */
-    /*  Maximum   400px      */
-
-    /*****************************************************************/
-    /*****************************************************************/
-
-    @media only screen and (max-width: 400px) {
-
-        .update-section .container .row h2 {
-
-            font-size: 1.5em;
-        }
 
 
-        .services .container h1 span {
-
-            font-size: 1em;
-        }
-
-        .services .container .row .box {
-            margin-bottom: -1em;
-            padding-top: 1px;
-        }
-
-        .services .container .row .box:nth-child(2) {
-            margin-bottom: -2.9em;
-        }
-
-        .services .container .row .box:nth-child(3) {
-            margin-bottom: -2.5em;
-        }
-
-        .social-colab-account .container h1 span {
-            font-size: 36px;
-        }
+}
 
 
+/*****************************************************************/
+/*****************************************************************/
 
-         /***********Past Papers page*************/
- /***********Past Papers page*************/
+/*CSS for Mobile View    */
+/*         Width         */
+/*  Minimum   0          */
+/*  Maximum   400px      */
 
-       .pastpapers-detail .container h1 span{
-            font-size: 24px;
-        }
-        .pastpapers-detail .container .row .detail-box h2{
-            font-size: 18px;
-        }
-        .pastpapers-detail .container .row .detail-box .department-list img{
-            display: none;
-        }
+/*****************************************************************/
+/*****************************************************************/
 
-        .pastpapers-detail .container .row .detail-box .department-list .department{
-            width: 100%;
-        }
-        .pastpapers-detail .container .row .quicklinks .container .links ul li a{
-            font-size: 0.65em;
-            font-weight: 500;
-        }
+@media only screen and (max-width: 400px) {
 
-        .pastpapers-detail .container .row .quicklinks h1 span{
-            font-size: 2rem;
-        }
+    .update-section .container .row h2 {
 
-
-
-        .pastpapers-detail .container .row .detail-box .department-list .department h3{
-               font-size: 200%;
-            margin: 70px auto auto auto;
-        }
-
+        font-size: 1.5em;
     }
+
+
+    .services .container h1 span {
+
+        font-size: 1em;
+    }
+
+    .services .container .row .box {
+        margin-bottom: -1em;
+        padding-top: 1px;
+    }
+
+    .services .container .row .box:nth-child(2) {
+        margin-bottom: -2.9em;
+    }
+
+    .services .container .row .box:nth-child(3) {
+        margin-bottom: -2.5em;
+    }
+
+    .social-colab-account .container h1 span {
+        font-size: 36px;
+    }
+
+
+
+    /***********Past Papers page*************/
+    /***********Past Papers page*************/
+
+    .material-detail .container h1 span {
+        font-size: 24px;
+    }
+
+    .material-detail .container .row .detail-box h2 {
+        font-size: 18px;
+    }
+
+    .material-detail .container .row .detail-box .department-list img {
+        display: none;
+    }
+
+    .material-detail .container .row .detail-box .department-list .department {
+        width: 100%;
+    }
+
+    .material-detail .container .row .quicklinks .container .links ul li a {
+        font-size: 0.65em;
+        font-weight: 500;
+    }
+
+    .material-detail .container .row .quicklinks h1 span {
+        font-size: 2rem;
+    }
+
+
+
+    .material-detail .container .row .detail-box .department-list .department h3 {
+        font-size: 200%;
+        margin: 70px auto auto auto;
+    }
+
+
+    .material-detail .container .row .detail-box .subjects-box .box .book:nth-child(1) {
+        margin-left: 1%;
+    }
+
+    .material-detail .container .row .detail-box .subjects-box .box .book {
+        width: 36%;
+    }
+
+
+
+
+}
