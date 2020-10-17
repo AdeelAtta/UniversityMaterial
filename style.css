@@ -999,9 +999,6 @@ footer .container .row ul li a:hover {
 
 footer .footer-bottom-area span {
     padding-top: 20px;
-    padding-bottom: 1px;
-
-
 
 }
 
@@ -1703,7 +1700,7 @@ list-style-type: none;
 
         footer .footer-bottom-area span{
             display: block;
-            padding-top: 2px;
+            padding-top: 3px;
         }
 
                  /***********Past Papers page*************/
