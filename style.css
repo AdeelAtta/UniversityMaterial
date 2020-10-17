@@ -1207,9 +1207,8 @@ list-style-type: none;
 }
 
 .pastpapers-detail .container .row .quicklinks .container .social-links{
-
-    padding-left: 30%;
-    padding-right: 30%;
+   padding-left: 26%;
+   padding-right: 26%;
 
 }
 .pastpapers-detail .container .row .quicklinks .container .social-links a{
@@ -1689,6 +1688,8 @@ list-style-type: none;
 
 
         }
+                 /***********Past Papers page*************/
+ /***********Past Papers page*************/
         .pastpapers-detail .container .row .quicklinks .container .social-links{
             padding: 0 27%;
         }
@@ -1719,7 +1720,8 @@ list-style-type: none;
             margin-bottom: -3em;
         }
 
-
+         /***********Past Papers page*************/
+ /***********Past Papers page*************/
 
 
         .pastpapers-detail .container .row .detail-box .department-list .department h4{
@@ -1730,7 +1732,7 @@ list-style-type: none;
         .pastpapers-detail .container .row .detail-box .department-list .department h3{
 
             font-size: 200%;
-            margin-top: 30%;
+            margin: 65px auto auto auto;
 
 
         }
@@ -1787,7 +1789,12 @@ list-style-type: none;
             font-size: 36px;
         }
 
-        .container h1 span{
+
+
+         /***********Past Papers page*************/
+ /***********Past Papers page*************/
+
+       .pastpapers-detail .container h1 span{
             font-size: 24px;
         }
         .pastpapers-detail .container .row .detail-box h2{
@@ -1795,14 +1802,6 @@ list-style-type: none;
         }
         .pastpapers-detail .container .row .detail-box .department-list img{
             display: none;
-        }
-        .pastpapers-detail .container .row .detail-box .department-list .department h3{
-
-
-
-        }
-        .pastpapers-detail .container .row .detail-box .department-list .department h4{
-
         }
 
         .pastpapers-detail .container .row .detail-box .department-list .department{
@@ -1822,6 +1821,9 @@ list-style-type: none;
             padding: 0 13%;
         }
 
-
+        .pastpapers-detail .container .row .detail-box .department-list .department h3{
+               font-size: 200%;
+            margin: 70px auto auto auto;
+        }
 
     }
