@@ -992,10 +992,16 @@ footer .container .row ul li a:hover {
     text-decoration: underline;
 }
 
-footer .footer-bottom-area p {
+
+.footer-bottom-area{
+ text-align: center;
+}
+
+footer .footer-bottom-area span {
     padding-top: 20px;
     padding-bottom: 1px;
-    text-align: center;
+
+
 
 }
 
@@ -1207,8 +1213,9 @@ list-style-type: none;
 }
 
 .pastpapers-detail .container .row .quicklinks .container .social-links{
-   padding-left: 26%;
-   padding-right: 26%;
+    width: 10rem;
+   margin-left: auto;
+    margin-right: auto;
 
 }
 .pastpapers-detail .container .row .quicklinks .container .social-links a{
@@ -1306,7 +1313,7 @@ list-style-type: none;
 
     }
 
-}
+
 
 
 
@@ -1324,10 +1331,10 @@ list-style-type: none;
 
 .pastpapers-detail .container .row .quicklinks .container .social-links{
 
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+}
 /*****************************************************************/
 /*****************************************************************/
 
@@ -1435,25 +1442,33 @@ list-style-type: none;
         margin-left: 0;
         margin-right: 0;
     }
-    .pastpapers-detail .container .row .quicklinks .container .social-links{
-        padding: 0 30%;
-    }
+
 
 
     .pastpapers-detail .container .row .quicklinks h1  {
         margin-bottom: 2%;
     }
     .pastpapers-detail .container .row .quicklinks h1 span {
-
         font-size: 2.2rem;
 
     }
+       .pastpapers-detail .container .row .quicklinks .container .social-links{
+        width: 200px;
+    }
+    .pastpapers-detail .container .row .quicklinks .container .links ul{
+        margin-top: 7%;
 
+    }
     .pastpapers-detail .container .row .quicklinks .container .links ul li{
         width: 65%;
         margin: 0 auto;
+        font-size: 32px;
+        line-height: 60px;
     }
+    .pastpapers-detail .container .row .quicklinks .container .links{
 
+        height: 780px;
+    }
 
 
 }
@@ -1684,15 +1699,16 @@ list-style-type: none;
 
             font-size: 250%;
             margin-top: 20%;
-
-
-
         }
+
+        footer .footer-bottom-area span{
+            display: block;
+            padding-top: 2px;
+        }
+
                  /***********Past Papers page*************/
  /***********Past Papers page*************/
-        .pastpapers-detail .container .row .quicklinks .container .social-links{
-            padding: 0 27%;
-        }
+
 
     }
 
@@ -1736,9 +1752,7 @@ list-style-type: none;
 
 
         }
-         .pastpapers-detail .container .row .quicklinks .container .social-links{
-            padding: 0 22%;
-        }
+
 
 
 
@@ -1808,7 +1822,7 @@ list-style-type: none;
             width: 100%;
         }
         .pastpapers-detail .container .row .quicklinks .container .links ul li a{
-            font-size: 1rem;
+            font-size: 0.65em;
             font-weight: 500;
         }
 
@@ -1816,10 +1830,7 @@ list-style-type: none;
             font-size: 2rem;
         }
 
-        .pastpapers-detail .container .row .quicklinks .container .social-links{
 
-            padding: 0 13%;
-        }
 
         .pastpapers-detail .container .row .detail-box .department-list .department h3{
                font-size: 200%;
