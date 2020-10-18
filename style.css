@@ -289,8 +289,21 @@ header {
 }
 
 
-.header-image {
+.pastpapers-header-image {
     background-image: url("images/pastpapers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    overflow: auto;
+
+
+
+
+}
+
+.course-header-image {
+    background-image: url("images/coursematerial.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1378,7 +1391,7 @@ footer .footer-bottom-area a {
 
     font-size: 2rem;
     padding-left: 5%;
-    font-style: normal; !important;
+
     margin-top: 5%;
 
 }
@@ -1407,6 +1420,71 @@ footer .footer-bottom-area a {
 
 
 
+
+
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+/*   Pastpapers    page     subject     Year      Selection  */
+
+
+
+                    /*  Pastpapers1.html   */
+
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+
+
+/*****************************************************************/
+/*    Course sub material .html*/
+/*****************************************************************/
+
+
+.material-detail .container .row .course-box{
+
+    height: auto;
+    border: 2px solid red;
+}
+
+.material-detail .container .row .course-box .week{
+    border: 2px solid green;
+    height: 150px;
+    display: flex;
+
+
+
+}
+.material-detail .container .row .course-box .week .box1{
+    border: 2px solid blue;
+    width: 40%;
+}
+
+
+.material-detail .container .row .course-box .week:nth-child(even) .box2{
+
+     transform: rotateY(180deg) rotateX(180deg);
+
+
+}
+
+.material-detail .container .row .course-box .week .box2{
+    border: 2px solid blue;
+    width: 20%;
+    background-image: url(images/pole.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+.material-detail .container .row .course-box .week .box3{
+    border: 2px solid blue;
+    width: 40%;
+}
 
 /*****************************************************************/
 /*****************************************************************/
