@@ -1019,7 +1019,9 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 /*****************************************************************/
 
-/*   Pastpapers    page     Department Selection */
+/*   Pastpapers    page     Department     Selection */
+
+            /*     Past-papers-department     */
 
 /*****************************************************************/
 /*****************************************************************/
@@ -1082,12 +1084,12 @@ footer .footer-bottom-area a {
     transition: transform 0.3s;
 }
 
-.material-detail .container .row .detail-box .department-list:nth-child(odd):hover {
+.material-detail .container .row .detail-box .department-list:nth-child(even):hover {
 
     transform: perspective(500px) rotateY(7deg) scale(0.9);
 }
 
-.material-detail .container .row .detail-box .department-list:nth-child(even):hover {
+.material-detail .container .row .detail-box .department-list:nth-child(odd):hover {
 
     transform: perspective(500px) rotateY(-7deg) scale(0.9);
 }
@@ -1270,6 +1272,8 @@ footer .footer-bottom-area a {
 
 /*   Pastpapers    page     Subject    Selection */
 
+                /* papers-subjects.html   */
+
 /*****************************************************************/
 /*****************************************************************/
 /*****************************************************************/
@@ -1332,6 +1336,77 @@ footer .footer-bottom-area a {
 
 
 }
+
+
+
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+/*   Pastpapers    page     subject     Year      Selection  */
+
+
+
+                    /*  Pastpapers1.html   */
+
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+
+.material-detail .container .row .detail-box p{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.material-detail .container .row .detail-box .p1{
+
+    margin-left: 5%;
+
+
+}
+
+
+.material-detail .container .row .detail-box .p1 span{
+
+    color: red;
+
+
+}
+
+.material-detail .container .row .detail-box h3{
+
+    font-size: 2rem;
+    padding-left: 5%;
+    font-style: normal; !important;
+    margin-top: 5%;
+
+}
+.material-detail .container .row .detail-box .colaborator{
+
+    font-size: 1.3rem;
+    padding-left: 5%;
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+}
+.material-detail .container .row .detail-box p .name{
+
+    text-decoration: underline;
+
+}
+
+.material-detail .container .row .detail-box iframe{
+
+    width: 90%;
+    height: 900px;
+    margin-left: 5%;
+
+}
+
+
+
+
+
 
 /*****************************************************************/
 /*****************************************************************/
