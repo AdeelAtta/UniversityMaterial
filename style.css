@@ -1369,13 +1369,22 @@ footer .footer-bottom-area a {
 
 .material-detail .container .row .detail-box p{
 
-    margin-top: 5%;
-    margin-bottom: 5%;
+    width: 90%;
+    margin: 5% auto 2% auto;
+    margin-top: 5%; border-top: 2px solid #d4a81e;
+    border-bottom: 2px solid #d4a81e;
+    font-size: 1em;
+
 }
-.material-detail .container .row .detail-box .p1{
 
-    margin-left: 5%;
+.material-detail .container .row .detail-box p a{
 
+    color: #112d4e;
+
+}
+.material-detail .container .row .detail-box p a:hover{
+
+    color: orangered;
 
 }
 
@@ -1391,7 +1400,6 @@ footer .footer-bottom-area a {
 
     font-size: 2rem;
     padding-left: 5%;
-
     margin-top: 5%;
 
 }
@@ -1443,48 +1451,115 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 
 
-.material-detail .container .row .course-box{
+
+
+
+.material-detail .container .row .detail-box .course-box{
 
     height: auto;
-    border: 2px solid red;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+    width: 90%;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
 }
 
-.material-detail .container .row .course-box .week{
-    border: 2px solid green;
+
+.material-detail .container .row .detail-box .backhome{
+
+    width: 85%;
+    margin: 1% auto -8% auto;
+    height: 2rem;
+
+
+}
+.material-detail .container .row .detail-box  .backhome a> img{
+    height: 2rem;
+    transform: scale(1.25);
+    transition: transform 0.3s;
+    margin-left: 5%;
+}
+.material-detail .container .row .detail-box  .backhome a> img:hover{
+
+    transform: scale(1);
+
+}
+
+
+.material-detail .container .row .detail-box .course-box .week{
+
     height: 150px;
     display: flex;
 
+}
 
+.material-detail .container .row .course-box .week img{
+    transform: scale(1.5);
+    transition: transform 0.3s;
 
 }
+.material-detail .container .row .course-box .week img:hover{
+
+    transform: scale(1.2);
+
+}
+
+
+
 .material-detail .container .row .course-box .week .box1{
-    border: 2px solid blue;
+
     width: 40%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
-.material-detail .container .row .course-box .week:nth-child(even) .box2{
+.material-detail .container .row .course-box .week:nth-child(odd) .box1 img{
 
-     transform: rotateY(180deg) rotateX(180deg);
+margin-right: 5%;
+}
 
+.material-detail .container .row .course-box .week:nth-child(even) .box3 img{
+
+    margin-left: 5%;
 
 }
 
 .material-detail .container .row .course-box .week .box2{
-    border: 2px solid blue;
     width: 20%;
-    background-image: url(images/pole.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(images/pole1.png);
+    background-size: cover;
     background-position: center;
 
-
-
 }
+.material-detail .container .row .course-box .week:nth-child(odd) .box2{
+
+     transform: rotateY(180deg) rotateX(180deg);
+}
+
 .material-detail .container .row .course-box .week .box3{
-    border: 2px solid blue;
+
     width: 40%;
 }
+
+.material-detail .container .row .course-box .week .box1 img, .box3  img{
+
+    height: 100%;
+}
+
+
+
+
+
+
+
+
 
 /*****************************************************************/
 /*****************************************************************/
