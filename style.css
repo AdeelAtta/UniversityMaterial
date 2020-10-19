@@ -1509,7 +1509,10 @@ footer .footer-bottom-area a {
     transform: scale(1.2);
 
 }
+.material-detail .container .row .course-box .week a{
 
+    width: 160px;
+}
 
 
 .material-detail .container .row .course-box .week .box1{
@@ -1522,7 +1525,7 @@ footer .footer-bottom-area a {
 
 .material-detail .container .row .course-box .week:nth-child(odd) .box1 img{
 
-margin-right: 5%;
+    margin-right: 5%;
 }
 
 .material-detail .container .row .course-box .week:nth-child(even) .box3 img{
