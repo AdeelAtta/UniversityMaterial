@@ -1197,7 +1197,6 @@ footer .footer-bottom-area a {
 .material-detail .container .row .quicklinks h1 {}
 
 .material-detail .container .row .quicklinks h1 span {
-
     font-size: 2rem;
 
 }
@@ -1367,22 +1366,23 @@ footer .footer-bottom-area a {
 /*****************************************************************/
 
 
-.material-detail .container .row .detail-box p{
+.material-detail .container .row .detail-box .p1{
 
     width: 90%;
     margin: 5% auto 2% auto;
     margin-top: 5%; border-top: 2px solid #d4a81e;
     border-bottom: 2px solid #d4a81e;
-    font-size: 1em;
+    font-size: 1.1em;
+
 
 }
 
-.material-detail .container .row .detail-box p a{
+.material-detail .container .row .detail-box .p1 a{
 
     color: #112d4e;
 
 }
-.material-detail .container .row .detail-box p a:hover{
+.material-detail .container .row .detail-box .p1 a:hover{
 
     color: orangered;
 
@@ -1481,7 +1481,7 @@ footer .footer-bottom-area a {
 }
 .material-detail .container .row .detail-box  .backhome a> img{
     height: 2rem;
-    transform: scale(1.25);
+    transform: scale(1.20);
     transition: transform 0.3s;
     margin-left: 5%;
 }
